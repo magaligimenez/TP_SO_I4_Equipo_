@@ -2,5 +2,9 @@
     margin:100px;
 }
 body {
-    background:green;
+<<<<<<< HEAD
+    background:yellow;
+=======
+    background:blue;
+>>>>>>> TESTING
 }
