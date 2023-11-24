@@ -1,8 +1,24 @@
 A- ¿Qué color de fondo tiene su página en el TESTING ?
-Azul
+Azul.
 B- ¿Qué color de fondo tiene su página en el DESARROLLO ?
-Amarillo
+Amarillo.
 C- ¿Qué color de fondo tiene su página en el MASTER?
-Azul
+Azul.
 D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA ?
-El de BETA
+El de BETA.
+E- ¿Algún integrante tuvo problemas al hacer el push?
+Si, Beta y Gamma.
+F- ¿Qué problemas surgieron?
+Que no se pueden subir cambios a un repositorio remoto si el
+local no está actualizado.
+G- ¿Qué soluciones pueden aplicar y cual seria la consecuencia de cada solución
+adoptada?
+La solución que adoptamos fue usar git pull y mantener tanto
+los cambios en local como los del remoto y subirlo.
+H- ¿Qué sucede si cada uno utiliza el push -f?
+Se sobreescriben todos los archivos del repositorio sin
+importar si nuestro repo está desactualizado o no.
+Muy peligroso al trabajar en grupo
+I- ¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 18,19 y 20
+en DESARROLLO ?
+Podría hacer un merge con TESTING desde DESARROLLO y subirlos.
